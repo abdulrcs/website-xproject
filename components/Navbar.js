@@ -1,16 +1,30 @@
 import { Box, Button, Flex, HStack, Image, Text } from '@chakra-ui/react';
 import Link from 'next/link';
-import React from 'react';
+import React, { useEffect } from 'react';
 
 const Navbar = () => {
+  const [isScrolled, setIsScrolled] = React.useState(false);
+
+  useEffect(() => {
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 500) {
+        setIsScrolled(true);
+      } else {
+        setIsScrolled(false);
+      }
+    });
+  }, []);
+
   return (
-    <Box position='fixed' w='100%' zIndex='2'>
+    <Box position='fixed' w='100%' zIndex='999'>
       <Flex
         justifyContent='space-between'
         alignItems='center'
         px='120px'
-        pt='30px'
+        py='30px'
         color='white'
+        transition='all 0.3s ease-in-out'
+        bg={isScrolled ? 'rgba(0, 0, 0, 0.8)' : 'transparent'}
       >
         <Text fontWeight='bold'>LOGO.</Text>
         <HStack
