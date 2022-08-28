@@ -8,7 +8,7 @@ import Page from '../../layout/Page';
 export default function About() {
   return (
     <Page title='Championship'>
-      <Content>
+      <Content disableAnimation>
         <Flare type='greenTopLeft' />
         <Flare type='blue' top='200px' />
         <Box pt='100px' position='relative'>

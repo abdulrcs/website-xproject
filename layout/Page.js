@@ -22,7 +22,7 @@ export default function Page({ title, metaDesc, children, usePadding }) {
       <main>
         <Navbar />
         {children}
-        <Content pt='100px'>
+        <Content pt='100px' disableAnimation>
           <Footer />
         </Content>
       </main>

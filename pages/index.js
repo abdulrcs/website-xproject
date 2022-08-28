@@ -26,7 +26,7 @@ export default function Home() {
           link='/about'
         />
       </Content>
-      <Content spacing='100px'>
+      <Content spacing='100px' disableAnimation>
         <Flare type='green' />
         <Flare type='blue' />
         {COMPETITIONS.map((item) => (
