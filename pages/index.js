@@ -1,3 +1,4 @@
+import dynamic from 'next/dynamic';
 import AboutCard from '../components/AboutCard';
 import Bootcamp from '../components/Bootcamp';
 import Content from '../components/Content';
@@ -6,9 +7,14 @@ import HeroImage from '../components/HeroImage';
 import Media from '../components/Media';
 import TitleImage from '../components/TitleImage';
 import { COMPETITIONS } from '../constants';
+import HOME_IMAGES from '../constants/homeImages';
 import Page from '../layout/Page';
 
 export default function Home() {
+  const ImageSlider = dynamic(() => import('../components/ImageSlider'), {
+    ssr: false,
+  });
+
   return (
     <Page title='X-Project'>
       <HeroImage />
@@ -26,7 +32,10 @@ export default function Home() {
           link='/about'
         />
       </Content>
-      <Content spacing='100px' disableAnimation>
+      <Content pt='100px'>
+        <ImageSlider slides={HOME_IMAGES} />
+      </Content>
+      <Content pt='100px' spacing='100px' disableAnimation>
         <Flare type='green' />
         <Flare type='blue' />
         {COMPETITIONS.map((item) => (

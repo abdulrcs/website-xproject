@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "3d-react-carousal": "^5.0.0",
     "@chakra-ui/react": "^2.2.4",
     "@emotion/react": "^11.9.3",
     "@emotion/styled": "^11.9.3",
@@ -16,7 +17,6 @@
     "next": "12.2.2",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-spring-3d-carousel": "^1.2.1",
     "react-vertical-timeline-component": "^3.5.2"
   },
   "devDependencies": {
