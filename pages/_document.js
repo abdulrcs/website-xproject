@@ -26,6 +26,9 @@ export default function Document() {
               border-color: #fff !important;
               border-radius: 10px;
             }
+            .react-3d-carousel {
+              height: 500px !important;
+            }
           `}
         </style>
       </Head>
