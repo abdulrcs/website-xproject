@@ -33,7 +33,11 @@ export default function Home() {
         />
       </Content>
       <Content pt='100px'>
-        <ImageSlider slides={HOME_IMAGES} />
+        <ImageSlider
+          title='Informatic Championship'
+          subtitle='National Informatic Technology Championship'
+          slides={HOME_IMAGES}
+        />
       </Content>
       <Content pt='100px' spacing='100px' disableAnimation>
         <Flare type='green' />

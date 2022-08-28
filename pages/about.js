@@ -4,6 +4,7 @@ import Content from '../components/Content';
 import Flare from '../components/Flare';
 import Media from '../components/Media';
 import Page from '../layout/Page';
+import ABOUT_IMAGES from '../constants/aboutImages';
 
 export default function About() {
   return (
@@ -28,7 +29,7 @@ export default function About() {
       </Content>
       <Content pt='100px'>
         <Flare type='green' zIndex={1} top={0} />
-        <Media title='Media Gallery' />
+        <Media title='Media Gallery' images={ABOUT_IMAGES} />
       </Content>
     </Page>
   );

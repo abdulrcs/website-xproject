@@ -13,7 +13,8 @@ const Footer = () => {
   return (
     <HStack
       px='12vw'
-      pb={8}
+      pt='100px'
+      pb='100px'
       alignItems='start'
       justifyContent='space-between'
       zIndex={99}
