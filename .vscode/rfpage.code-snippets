@@ -29,7 +29,7 @@
       "  )",
       "}",
       "",
-      "export default Inacco"
+      "export default ${1:${TM_FILENAME_BASE}}"
     ],
     "description": "page"
   }

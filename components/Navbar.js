@@ -7,7 +7,7 @@ const Navbar = () => {
 
   useEffect(() => {
     window.addEventListener('scroll', () => {
-      if (window.scrollY > 500) {
+      if (window.scrollY > 100) {
         setIsScrolled(true);
       } else {
         setIsScrolled(false);
@@ -43,7 +43,7 @@ const Navbar = () => {
               <Text>About</Text>
             </a>
           </Link>
-          <Link href='/championship'>
+          <Link href='/competition'>
             <a>
               <Text>Championship</Text>
             </a>

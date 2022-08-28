@@ -1,9 +1,23 @@
-import { Heading, HStack, Image, Text, VStack } from '@chakra-ui/react';
+import {
+  Heading,
+  HStack,
+  Image,
+  Link as ExternalLink,
+  Text,
+  VStack,
+} from '@chakra-ui/react';
+import Link from 'next/link';
 import React from 'react';
 
 const Footer = () => {
   return (
-    <HStack px='12vw' pb={8} alignItems='start' justifyContent='space-between'>
+    <HStack
+      px='12vw'
+      pb={8}
+      alignItems='start'
+      justifyContent='space-between'
+      zIndex={99}
+    >
       <VStack w='30%' align='left' spacing={9}>
         <Heading variant='primary' fontSize='48px'>
           X-Project
@@ -15,17 +29,47 @@ const Footer = () => {
           informasi.
         </Text>
         <HStack spacing={4}>
-          <Image src='/assets/linkedinIcon.png' alt='linkedin' w='30px' />
-          <Image src='/assets/instagramIcon.png' alt='instagram' w='30px' />
-          <Image src='/assets/webIcon.png' alt='web' w='30px' />
+          <ExternalLink
+            href='https://www.linkedin.com/company/himpunan-teknik-informatika-universitas-negeri-surabaya/'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <Image src='/assets/linkedinIcon.png' alt='linkedin' w='30px' />
+          </ExternalLink>
+          <ExternalLink
+            href='https://www.instagram.com/xproject.if/'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <Image src='/assets/instagramIcon.png' alt='instagram' w='30px' />
+          </ExternalLink>
+          <ExternalLink href='/'>
+            <Image src='/assets/webIcon.png' alt='web' w='30px' />
+          </ExternalLink>
         </HStack>
       </VStack>
       <VStack w='20%' align='left'>
         <Text variant='subheading'>Quick Links</Text>
-        <Text>Informatics Championship</Text>
-        <Text>INACCO</Text>
-        <Text>Bootcamp</Text>
-        <Text>About</Text>
+        <Link href='/competition'>
+          <a>
+            <Text>Informatics Championship</Text>
+          </a>
+        </Link>
+        <Link href='/inacco'>
+          <a>
+            <Text>INACCO</Text>
+          </a>
+        </Link>
+        <Link href='/bootcamp'>
+          <a>
+            <Text>Bootcamp</Text>
+          </a>
+        </Link>
+        <Link href='/about'>
+          <a>
+            <Text>About</Text>
+          </a>
+        </Link>
       </VStack>
       <VStack w='20%' align='left'>
         <Text variant='subheading'>Contact</Text>

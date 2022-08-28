@@ -7,9 +7,11 @@ import {
   Text,
   VStack,
 } from '@chakra-ui/react';
+import { useRouter } from 'next/router';
 import React from 'react';
 
 const Bootcamp = () => {
+  const router = useRouter();
   return (
     <HStack
       spacing={8}
@@ -34,7 +36,12 @@ const Bootcamp = () => {
           siap kerja dengan waktu singkat.
         </Text>
         <Box>
-          <Button mt={2} variant='primary' w='40%'>
+          <Button
+            mt={2}
+            variant='primary'
+            w='40%'
+            onClick={() => router.push('/bootcamp')}
+          >
             More Info
           </Button>
         </Box>

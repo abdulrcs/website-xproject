@@ -3,10 +3,11 @@ import { extendTheme } from '@chakra-ui/react';
 const theme = extendTheme({
   colors: {
     lightblue: '#18A0FB',
+    green: '#4CC015',
   },
   fonts: {
     body: 'Poppins, system-ui, sans-serif',
-    heading: 'Poppins, serif',
+    heading: 'Poppins, system-ui, serif',
     mono: 'Menlo, monospace',
   },
   components: {
@@ -16,7 +17,7 @@ const theme = extendTheme({
           background: 'linear-gradient(90deg, #4CC015 -11.4%, #00F0FF 130.04%)',
           color: 'black',
           borderRadius: '50px',
-          padding: '10px 24px',
+          padding: '10px 36px',
           fontWeight: 'bold',
           fontSize: '18px',
         },

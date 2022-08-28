@@ -1,9 +1,10 @@
+import { Box } from '@chakra-ui/react';
 import Head from 'next/head';
 import Content from '../components/Content';
 import Footer from '../components/Footer';
 import Navbar from '../components/Navbar';
 
-export default function Page({ title, metaDesc, children }) {
+export default function Page({ title, metaDesc, children, usePadding }) {
   return (
     <div>
       <Head>

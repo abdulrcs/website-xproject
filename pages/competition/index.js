@@ -1,9 +1,9 @@
 import { Box } from '@chakra-ui/react';
-import AboutCard from '../components/AboutCard';
-import Content from '../components/Content';
-import Flare from '../components/Flare';
-import { COMPETITIONS } from '../constants';
-import Page from '../layout/Page';
+import AboutCard from '../../components/AboutCard';
+import Content from '../../components/Content';
+import Flare from '../../components/Flare';
+import { COMPETITIONS } from '../../constants';
+import Page from '../../layout/Page';
 
 export default function About() {
   return (
