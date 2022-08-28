@@ -6,10 +6,25 @@ import React from 'react';
 const ImageSlider = ({ title, subtitle, slides }) => (
   <>
     <VStack align='center'>
-      <Heading variant='primary' fontSize='48px'>
+      <Heading
+        fontSize={{
+          base: '36px',
+          xl: '48px',
+        }}
+        variant='primary'
+        textAlign='center'
+      >
         {title}
       </Heading>
-      <Text variant='subtitle'>{subtitle}</Text>
+      <Text
+        fontSize={{
+          base: '12px',
+          xl: '18px',
+        }}
+        textAlign='center'
+      >
+        {subtitle}
+      </Text>
       <Box pt='24px' />
     </VStack>
     <Carousel slides={slides} />

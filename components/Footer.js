@@ -3,6 +3,7 @@ import {
   HStack,
   Image,
   Link as ExternalLink,
+  Stack,
   Text,
   VStack,
 } from '@chakra-ui/react';
@@ -11,15 +12,35 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <HStack
-      px='12vw'
+    <Stack
+      direction={{
+        base: 'column',
+        xl: 'row',
+      }}
+      px={{
+        xl: '12vw',
+      }}
+      alignItems={{
+        base: 'center',
+        xl: 'flex-start',
+      }}
+      spacing={{
+        base: '48px',
+        xl: '0',
+      }}
       pt='100px'
       pb='100px'
-      alignItems='start'
       justifyContent='space-between'
       zIndex={99}
     >
-      <VStack w='30%' align='left' spacing={9}>
+      <VStack
+        w={{
+          base: '80%',
+          xl: '30%',
+        }}
+        align='left'
+        spacing={9}
+      >
         <Heading variant='primary' fontSize='48px'>
           X-Project
         </Heading>
@@ -49,7 +70,13 @@ const Footer = () => {
           </ExternalLink>
         </HStack>
       </VStack>
-      <VStack w='20%' align='left'>
+      <VStack
+        w={{
+          base: '80%',
+          xl: '20%',
+        }}
+        align='left'
+      >
         <Text variant='subheading'>Quick Links</Text>
         <Link href='/competition'>
           <a>
@@ -72,12 +99,18 @@ const Footer = () => {
           </a>
         </Link>
       </VStack>
-      <VStack w='20%' align='left'>
+      <VStack
+        w={{
+          base: '80%',
+          xl: '20%',
+        }}
+        align='left'
+      >
         <Text variant='subheading'>Contact</Text>
         <Text>himtiunesa@gmail.com</Text>
         <Text>+62812-3456-7890</Text>
       </VStack>
-    </HStack>
+    </Stack>
   );
 };
 

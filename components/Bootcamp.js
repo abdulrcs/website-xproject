@@ -2,8 +2,8 @@ import {
   Box,
   Button,
   Heading,
-  HStack,
   Image,
+  Stack,
   Text,
   VStack,
 } from '@chakra-ui/react';
@@ -13,7 +13,11 @@ import React from 'react';
 const Bootcamp = () => {
   const router = useRouter();
   return (
-    <HStack
+    <Stack
+      direction={{
+        base: 'column-reverse',
+        xl: 'row',
+      }}
       spacing={8}
       alignItems='center'
       justifyContent='space-between'
@@ -46,8 +50,15 @@ const Bootcamp = () => {
           </Button>
         </Box>
       </VStack>
-      <Image src='/assets/bootcamp_vector.png' alt='bootcamp' w='50%' />
-    </HStack>
+      <Image
+        src='/assets/bootcamp_vector.png'
+        alt='bootcamp'
+        w={{
+          base: '80%',
+          xl: '50%',
+        }}
+      />
+    </Stack>
   );
 };
 

@@ -16,15 +16,23 @@ const Navbar = () => {
   }, []);
 
   return (
-    <Box position='fixed' w='100%' zIndex='999'>
+    <Box
+      display={{
+        base: 'none',
+        xl: 'block',
+      }}
+      position='fixed'
+      w='100%'
+      zIndex='999'
+    >
       <Flex
+        bg={isScrolled ? 'rgba(0, 0, 0, 0.8)' : 'transparent'}
         justifyContent='space-between'
         alignItems='center'
         px='120px'
         py='30px'
         color='white'
         transition='all 0.3s ease-in-out'
-        bg={isScrolled ? 'rgba(0, 0, 0, 0.8)' : 'transparent'}
       >
         <Text fontWeight='bold'>LOGO.</Text>
         <HStack
@@ -32,6 +40,7 @@ const Navbar = () => {
           fontSize='20px'
           alignItems='center'
           justifyContent='center'
+          ml='96px'
         >
           <Link href='/'>
             <a>

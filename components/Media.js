@@ -4,17 +4,33 @@ import React from 'react';
 const Media = ({ title, images }) => {
   return (
     <VStack spacing={10} zIndex={2}>
-      <Heading variant='primary' fontSize='72px'>
+      <Heading
+        fontSize={{
+          base: '36px',
+          xl: '72px',
+        }}
+        variant='primary'
+        textAlign='center'
+      >
         {title}
       </Heading>
       <Box
-        borderRadius={41}
-        border='5px solid #4CC015'
         width='75%'
-        padding={10}
         height={images ? 'auto' : '500px'}
+        borderRadius={41}
+        padding={10}
+        border='5px solid #4CC015'
       >
-        <SimpleGrid columns={3} spacing={10}>
+        <SimpleGrid
+          columns={{
+            base: 1,
+            lg: 2,
+            xl: 3,
+          }}
+          spacing={10}
+          alignItems='center'
+          justifyItems='center'
+        >
           {images?.map((image) => (
             <Image src={image} alt={image} key={image} borderRadius='30px' />
           ))}

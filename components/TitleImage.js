@@ -7,7 +7,14 @@ const TitleImage = ({ title, img, footer }) => {
       <Heading variant='primary' fontSize='72px'>
         {title}
       </Heading>
-      <Image src={img} alt='innaco' w='30%' />
+      <Image
+        w={{
+          base: '60%',
+          lg: '30%',
+        }}
+        src={img}
+        alt='innaco'
+      />
       <Heading variant='primary' fontSize='48px'>
         {footer}
       </Heading>

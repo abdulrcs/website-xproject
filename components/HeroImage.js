@@ -23,10 +23,10 @@ const HeroImage = () => {
         justifyContent='center'
         h='100%'
       >
-        <Heading variant='primary' fontSize='72px'>
+        <Heading variant='primary' fontSize='72px' textAlign='center'>
           X-Project
         </Heading>
-        <Text variant='subheading'>
+        <Text variant='subheading' textAlign='center'>
           National Informatic Technology Championship
         </Text>
         <Button variant='primaryLong'>Let&apos;s go</Button>
