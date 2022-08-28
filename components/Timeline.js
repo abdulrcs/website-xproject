@@ -7,7 +7,7 @@ import {
 import 'react-vertical-timeline-component/style.min.css';
 
 const Timeline = ({ timelines }) => {
-  const [isDesktop, setIsDesktop] = useMediaQuery('(min-width: 1300px)');
+  const [isDesktop] = useMediaQuery('(min-width: 1300px)');
 
   return (
     <Box px={{ base: '20px', md: '0' }}>

@@ -1,10 +1,12 @@
-import { Box } from '@chakra-ui/react';
 import Head from 'next/head';
 import Content from '../components/Content';
 import Footer from '../components/Footer';
-import Navbar from '../components/Navbar';
+import DesktopNavbar from '../components/DesktopNavbar';
+import MobileNavbar from '../components/MobileNavbar';
+import { useMediaQuery } from '@chakra-ui/react';
 
 export default function Page({ title, metaDesc, children, usePadding }) {
+  const [isDesktop] = useMediaQuery('(min-width: 1300px)');
   return (
     <div>
       <Head>
@@ -20,7 +22,7 @@ export default function Page({ title, metaDesc, children, usePadding }) {
         <link rel='icon' href='/favicon.ico' />
       </Head>
       <main>
-        <Navbar />
+        {isDesktop ? <DesktopNavbar /> : <MobileNavbar />}
         {children}
         <Content pt='100px' disableAnimation>
           <Footer />

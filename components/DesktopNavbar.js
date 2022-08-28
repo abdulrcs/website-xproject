@@ -16,15 +16,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <Box
-      display={{
-        base: 'none',
-        xl: 'block',
-      }}
-      position='fixed'
-      w='100%'
-      zIndex='999'
-    >
+    <Box position='fixed' w='100%' zIndex='999'>
       <Flex
         bg={isScrolled ? 'rgba(0, 0, 0, 0.8)' : 'transparent'}
         justifyContent='space-between'
