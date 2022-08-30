@@ -1,19 +1,14 @@
-import { Box } from '@chakra-ui/react';
 import React from 'react';
-import TitleImage from '../components/TitleImage';
-import Page from '../layout/Page';
+import PosterPage from '../layout/PosterPage';
 
 const Inacco = () => {
   return (
-    <Page title='INACCO'>
-      <Box py='150px'>
-        <TitleImage
-          title='INACCO'
-          img='/assets/inacco.png'
-          footer='COMING SOON'
-        />
-      </Box>
-    </Page>
+    <PosterPage
+      title='INACCO'
+      img='/assets/posterInacco.png'
+      register='http://bit.ly/PendaftaranINACCO2022'
+      guidebook='http://bit.ly/GUIDEBOOKINACCO'
+    />
   );
 };
 
