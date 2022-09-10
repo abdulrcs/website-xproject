@@ -15,6 +15,7 @@ import {
   useBreakpointValue,
   useDisclosure,
   Circle,
+  Image,
 } from '@chakra-ui/react';
 // import {
 //   HamburgerIcon,
@@ -46,13 +47,7 @@ export default function MobileNavbar() {
           />
         </Flex>
         <Flex flex={{ base: 1 }} justify={{ base: 'center' }}>
-          <Text
-            textAlign={useBreakpointValue({ base: 'center' })}
-            fontFamily={'heading'}
-            color={'white'}
-          >
-            Logo
-          </Text>
+          <Image src='assets/logo.png' w='72px' alt="logo"/>
         </Flex>
 
         <Stack

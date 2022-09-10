@@ -26,7 +26,7 @@ const Navbar = () => {
         color='white'
         transition='all 0.3s ease-in-out'
       >
-        <Text fontWeight='bold'>LOGO.</Text>
+        <Image src='assets/logo.png' w='96px' alt="logo"/>
         <HStack
           spacing='40px'
           fontSize='20px'
