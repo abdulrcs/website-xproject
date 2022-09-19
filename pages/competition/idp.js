@@ -9,7 +9,7 @@ const IDP = () => {
     },
     {
       title: 'Penjurian Karya',
-      date: '27 – 3 Desember 2022',
+      date: '27 November – 3 Desember 2022',
     },
     {
       title: 'Pengumuman Pemenang Lomba',
@@ -26,7 +26,7 @@ const IDP = () => {
       title='International Digital Poster'
       img='/assets/comp_idp.png'
       desc='International Digital Poster (IDP) merupakan kompetisi di bidang desain grafis tingkat internasional, kompetisi ini untuk meningkatkan kreativitas dan juga inovasi dalam desain grafis. Desain pada poster ini mengarah ke bidang teknologi informasi yang mengarah ke masa depan'
-      register=''
+      register='https://forms.gle/Lf9NseMfb2ZVtcSWA'
       guidebook=''
       type='Umum'
       level='Tingkat Internasional'

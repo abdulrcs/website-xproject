@@ -21,6 +21,15 @@ const theme = extendTheme({
           fontWeight: 'bold',
           fontSize: '18px',
         },
+        secondary: {
+          background: 'transparent',
+          border: '3px solid #4CC015',
+          color: 'white',
+          borderRadius: '50px',
+          padding: '19px 36px',
+          fontWeight: 'bold',
+          fontSize: '18px',
+        },
         primaryLong: {
           background: 'linear-gradient(90deg, #4CC015 -11.4%, #00F0FF 130.04%)',
           color: 'black',

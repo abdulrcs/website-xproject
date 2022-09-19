@@ -25,11 +25,11 @@ const UIUXCompetition = () => {
     },
     {
       title: 'Pengumpulan Karya',
-      date: '27 Oktober – 5 November 2022',
+      date: '30 Oktober – 5 November 2022',
     },
     {
       title: 'Technical Meeting 2',
-      date: '29 Oktober 2022',
+      date: '30 Oktober 2022',
     },
     {
       title: 'Penjurian Semifinal',
@@ -48,7 +48,7 @@ const UIUXCompetition = () => {
       date: '13 – 25 November 2022',
     },
     {
-      title: 'Final',
+      title: 'Final UI/UX',
       date: '26 November 2022',
     },
     {
@@ -66,7 +66,7 @@ const UIUXCompetition = () => {
       title='UI/UX Competition'
       img='/assets/comp_uiux.png'
       desc='Kompetisi Desain UI/UX merupakan sebuah kompetisi desain antarmuka dari suatu sistem/produk yang berorientasi pada kenyamanan dan kemudahan pengguna dalam menggunakan sistem/produk tersebut.'
-      register=''
+      register='https://forms.gle/zLvLDmdYtaDhnFVr9'
       guidebook=''
       type='Mahasiswa'
       level='Tingkat Nasional'

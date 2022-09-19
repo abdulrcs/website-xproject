@@ -18,7 +18,7 @@ const AboutCard = ({ title, desc, link, img, pb }) => {
         pb={pb}
       >
         <Image
-          w={{ base: '50%', lg: '30%' }}
+          w={{ base: '50%', lg: '25%' }}
           src={img}
           alt={title}
           zIndex={99}

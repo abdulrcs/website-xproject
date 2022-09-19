@@ -12,19 +12,15 @@ const LKTIN = () => {
       date: '16 Oktober 2022',
     },
     {
-      title: 'Pengumpulan Proposal',
-      date: '17 Oktober  – 21 Oktober 2022',
+      title: 'Pengumpulan Abstrak',
+      date: '17 Oktober - 21 Oktober 2022',
     },
     {
-      title: 'Penjurian Proposal',
-      date: '22 – 25 Oktober 2022',
-    },
-    {
-      title: 'Pengumuman Lolos Ke Tahap Semifinal',
+      title: 'Pengumuman Lolos Abstrak',
       date: '26 Oktober 2022',
     },
     {
-      title: 'Pengumpulan Karya',
+      title: 'Pengumpulan Fullpaper',
       date: '27 Oktober – 5 November 2022',
     },
     {
@@ -32,8 +28,8 @@ const LKTIN = () => {
       date: '29 Oktober 2022',
     },
     {
-      title: 'Penjurian Semifinal',
-      date: '6 – 11 November 2022',
+      title: 'Penjurian Full Paper',
+      date: '6 November - 11 November 2022',
     },
     {
       title: 'Pengumuman Lolos Ke Tahap Final',
@@ -44,12 +40,12 @@ const LKTIN = () => {
       date: '13 November 2022',
     },
     {
-      title: 'Pengumpulan Poster & PPT',
-      date: '13 – 25 November 2022',
+      title: 'Pengumpulan PPT',
+      date: '25 November 2022',
     },
     {
       title: 'Final',
-      date: '26 November 2022',
+      date: '27 November 2022',
     },
     {
       title: 'Pengumuman Pemenang Lomba',
@@ -66,7 +62,7 @@ const LKTIN = () => {
       title='LKTIN'
       img='/assets/comp_lktin.png'
       desc='LKTIN (Lomba Karya Tulis Ilmiah Nasional) merupakan sebuah kompetisi yang ditujukan kepada siswa dan siswi SMA/SMK atau sederajat untuk meningkatkan kreativitas dan inovasi dengan cara berkompetisi menuangkan ide atau gagasan mengenai tema tertentu yang berbasis ilmiah.'
-      register=''
+      register='http://unesa.me/PendaftaranLKTINShifterion'
       guidebook=''
       type='Siswa'
       level='Tingkat Nasional'

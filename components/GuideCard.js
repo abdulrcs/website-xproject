@@ -54,7 +54,7 @@ const GuideCard = ({ title, img, desc, register, guidebook }) => {
           pl={{
             xl: 8,
           }}
-          spacing={8}
+          spacing={4}
           pt={16}
         >
           <Text
@@ -69,11 +69,16 @@ const GuideCard = ({ title, img, desc, register, guidebook }) => {
           >
             {desc}
           </Text>
-          <HStack spacing={8}>
+          <HStack spacing={4}>
             <Button variant='primary' onClick={() => router.push(register)}>
               DAFTAR
             </Button>
-            <Button variant='primary' onClick={() => router.push(guidebook)}>
+            <Button variant='secondary' onClick={() => router.push(guidebook)}>
+              Upload Karya
+            </Button>
+          </HStack>
+          <HStack w="55%" justifyContent="center">
+            <Button variant='secondary' onClick={() => router.push(guidebook)}>
               GUIDEBOOK
             </Button>
           </HStack>
