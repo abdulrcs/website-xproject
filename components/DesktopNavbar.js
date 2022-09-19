@@ -1,9 +1,11 @@
 import { Box, Button, Flex, HStack, Image, Text } from '@chakra-ui/react';
 import Link from 'next/link';
+import { useRouter } from 'next/router';
 import React, { useEffect } from 'react';
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = React.useState(false);
+  const router = useRouter();
 
   useEffect(() => {
     window.addEventListener('scroll', () => {
@@ -60,7 +62,7 @@ const Navbar = () => {
             </a>
           </Link>
         </HStack>
-        <Button variant='primary'>Register</Button>
+        <Button variant='primary' onClick={() => router.push('/competition')}>Register</Button>
       </Flex>
     </Box>
   );

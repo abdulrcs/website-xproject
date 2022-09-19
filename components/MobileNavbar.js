@@ -17,6 +17,7 @@ import {
   Circle,
   Image,
 } from '@chakra-ui/react';
+import { useRouter } from 'next/router';
 // import {
 //   HamburgerIcon,
 //   CloseIcon,
@@ -25,6 +26,7 @@ import {
 // } from '@chakra-ui/icons';
 
 export default function MobileNavbar() {
+  const router = useRouter();
   const { isOpen, onToggle } = useDisclosure();
 
   return (
@@ -46,7 +48,7 @@ export default function MobileNavbar() {
             _focus={{ bg: 'none' }}
           />
         </Flex>
-        <Flex flex={{ base: 1 }} justify={{ base: 'center' }}>
+        <Flex flex={{ base: 1 }} justify={{ base: 'center' }} onClick={() => router.push('/')}>
           <Image src='assets/logo.png' w='72px' alt="logo"/>
         </Flex>
 
@@ -61,7 +63,7 @@ export default function MobileNavbar() {
             fontSize={'sm'}
             fontWeight={400}
             variant={'link'}
-            href={'#'}
+            href={'/competition'}
             color='white'
           >
             Register
