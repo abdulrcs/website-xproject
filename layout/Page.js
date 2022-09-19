@@ -7,6 +7,7 @@ import { useMediaQuery } from '@chakra-ui/react';
 
 export default function Page({ title, metaDesc, children, usePadding }) {
   const [isDesktop] = useMediaQuery('(min-width: 1300px)');
+  const [isMobile] = useMediaQuery('(max-width: 1299px)');
   return (
     <div>
       <Head>
@@ -22,7 +23,8 @@ export default function Page({ title, metaDesc, children, usePadding }) {
         <link rel='icon' href='/favicon.ico' />
       </Head>
       <main>
-        {isDesktop ? <DesktopNavbar /> : <MobileNavbar />}
+        {isDesktop && <DesktopNavbar />}
+        {isMobile && <MobileNavbar />}
         {children}
         <Content pt='100px' disableAnimation>
           <Footer />
