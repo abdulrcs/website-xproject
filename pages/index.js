@@ -1,3 +1,4 @@
+import { Box } from '@chakra-ui/react';
 import dynamic from 'next/dynamic';
 import AboutCard from '../components/AboutCard';
 import Bootcamp from '../components/Bootcamp';
@@ -20,8 +21,9 @@ export default function Home() {
       <HeroImage />
       <Content>
         <Flare type='blue' />
+        <Box pt="150px"/>
         <AboutCard
-          img='/assets/maskot.png'
+          img='/assets/logoFull.png'
           title='About X-Project'
           desc='
             X-Project merupakan sebuah kompetisi tingkat nasional di bidang
@@ -32,7 +34,7 @@ export default function Home() {
           link='/about'
         />
       </Content>
-      <Content pt='100px'>
+      <Content pt='150px'>
         <ImageSlider
           title='Informatic Championship'
           subtitle='National Informatic Technology Championship'

@@ -1,17 +1,42 @@
 import {
+  Box,
   Button,
   Heading,
   HStack,
   Image,
   Stack,
   Text,
+  useToast,
   VStack,
 } from '@chakra-ui/react';
 import { useRouter } from 'next/router';
 import React from 'react';
 
-const GuideCard = ({ title, img, desc, register, guidebook }) => {
+const GuideCard = ({ title, img, desc, register, uploadKarya, guidebook }) => {
   const router = useRouter();
+  const toast = useToast();
+  const handleGuidebook = () => {
+    if(guidebook) {
+      router.push(guidebook);
+    } else {
+      toast({
+        description: 'Coming soon!',
+        status: 'info',
+        isClosable: true,
+      })
+    }
+  }
+  const handleUploadKarya = () => {
+    if(uploadKarya) {
+      router.push(uploadKarya);
+    } else {
+      toast({
+        description: 'Coming soon!',
+        status: 'info',
+        isClosable: true,
+      })
+    }
+  }
   return (
     <VStack
       px={{
@@ -32,10 +57,11 @@ const GuideCard = ({ title, img, desc, register, guidebook }) => {
           base: 'column',
           xl: 'row',
         }}
-        align='center'
+        align='start'
         justify='center'
       >
         <Image
+          alignSelf='center'
           w={{
             base: '60%',
             xl: '40%',
@@ -55,12 +81,12 @@ const GuideCard = ({ title, img, desc, register, guidebook }) => {
             xl: 8,
           }}
           spacing={4}
-          pt={16}
+          pt={24}
         >
           <Text
             w={{
               base: '100%',
-              xl: '70%',
+              xl: '90%',
             }}
             textAlign={{
               base: 'center',
@@ -73,15 +99,13 @@ const GuideCard = ({ title, img, desc, register, guidebook }) => {
             <Button variant='primary' onClick={() => router.push(register)}>
               DAFTAR
             </Button>
-            <Button variant='secondary' onClick={() => router.push(guidebook)}>
+            <Button variant='secondary' onClick={handleUploadKarya}>
               Upload Karya
             </Button>
           </HStack>
-          <HStack w="55%" justifyContent="center">
-            <Button variant='secondary' onClick={() => router.push(guidebook)}>
-              GUIDEBOOK
-            </Button>
-          </HStack>
+          <Button variant='secondary' onClick={handleGuidebook}>
+            GUIDEBOOK
+          </Button>
         </VStack>
       </Stack>
     </VStack>

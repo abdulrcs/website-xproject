@@ -27,7 +27,7 @@ const CompetitionPage = ({
           register={register}
           guidebook={guidebook}
         />
-        <Box mt='50px' />
+        <Box mt='100px' />
         <CompetitionInfo type={type} level={level} prize={prize} />
         <Box mt='100px' />
         <Timeline timelines={timelineData} />
