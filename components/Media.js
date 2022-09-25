@@ -23,16 +23,16 @@ const Media = ({ title, images }) => {
       >
         <SimpleGrid
           columns={{
-            base: 1,
-            lg: 2,
-            xl: 3,
+            base: 2,
+            lg: 3,
+            xl: 4,
           }}
           spacing={10}
           alignItems='center'
           justifyItems='center'
         >
           {images?.map((image) => (
-            <Image src={image} alt={image} key={image} borderRadius='30px' />
+          <Image src={image} alt={image} key={image} width="80%" />
           ))}
         </SimpleGrid>
       </Box>

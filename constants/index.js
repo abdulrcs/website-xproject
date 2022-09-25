@@ -20,4 +20,11 @@ export const COMPETITIONS = [
     img: '/assets/comp_idp.png',
     link: '/competition/idp',
   },
+  {
+    title: 'INACCO',
+    desc:
+      'INACCO adalah perlombaan cover musik accoustic yang diadakan oleh himpunan mahasiswa jurusan teknik informatika UNESA, Tujuan diadakan INACCO adaah untuk mewadahi bakat bermusik sekaligus sebagai branding jurusan teknik informatika UNESA',
+    img: '/assets/inacco.png',
+    link: '/inacco',
+  }
 ];

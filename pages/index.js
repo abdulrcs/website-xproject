@@ -6,9 +6,9 @@ import Content from '../components/Content';
 import Flare from '../components/Flare';
 import HeroImage from '../components/HeroImage';
 import Media from '../components/Media';
-import TitleImage from '../components/TitleImage';
 import { COMPETITIONS } from '../constants';
 import HOME_IMAGES from '../constants/homeImages';
+import MEDIA_PARTNERS from '../constants/mediaPartners';
 import Page from '../layout/Page';
 
 export default function Home() {
@@ -55,14 +55,11 @@ export default function Home() {
           />
         ))}
       </Content>
-      <Content>
-        <TitleImage title='INACCO' img='/assets/inacco.png' />
-      </Content>
       <Content pt='100px'>
         <Bootcamp />
       </Content>
       <Content pt='100px'>
-        <Media title='Media Partner' />
+        <Media title='Media Partner' images={MEDIA_PARTNERS} />
       </Content>
     </Page>
   );

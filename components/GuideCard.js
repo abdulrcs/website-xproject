@@ -45,7 +45,7 @@ const GuideCard = ({ title, img, desc, register, uploadKarya, guidebook }) => {
       }}
     >
       <Heading
-        fontSize={{ base: '36px', xl: '72px' }}
+        fontSize={{ base: '36px', xl: '56px' }}
         variant='primary'
         py={4}
         textAlign='center'
@@ -90,7 +90,10 @@ const GuideCard = ({ title, img, desc, register, uploadKarya, guidebook }) => {
             }}
             textAlign={{
               base: 'center',
-              xl: 'left',
+              xl: 'justify',
+            }}
+            style={{
+              textJustify: 'inter-word',
             }}
           >
             {desc}
