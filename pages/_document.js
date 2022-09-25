@@ -29,6 +29,10 @@ export default function Document() {
             .react-3d-carousel {
               height: 500px !important;
             }
+            .chakra-modal__body {
+              border: 3px solid green !important;
+              border-radius: 20px !important;
+            }
           `}
         </style>
       </Head>

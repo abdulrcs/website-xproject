@@ -16,6 +16,7 @@ const CompetitionPage = ({
   level,
   htm,
   timelineData,
+  uploadData,
 }) => {
   return (
     <Page title={title}>
@@ -26,6 +27,7 @@ const CompetitionPage = ({
           desc={desc}
           register={register}
           guidebook={guidebook}
+          uploadData={uploadData}
         />
         <Box mt='100px' />
         <CompetitionInfo type={type} level={level} htm={htm} />

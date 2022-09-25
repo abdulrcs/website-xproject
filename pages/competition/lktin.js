@@ -45,6 +45,13 @@ const LKTIN = () => {
     },
   ];
 
+  const uploadData = [
+    {
+      name: 'Upload Karya',
+      url: '',
+    }
+  ]
+
   return (
     <CompetitionPage
       title='LKTIN'
@@ -56,6 +63,7 @@ const LKTIN = () => {
       level='Tingkat Nasional'
       htm='Rp. 75.000,00'
       timelineData={timelineData}
+      uploadData={uploadData}
     />
   );
 };

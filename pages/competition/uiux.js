@@ -45,6 +45,21 @@ const UIUXCompetition = () => {
     },
   ];
 
+  const uploadData = [
+    {
+      name: 'Penyisihan',
+      url: '',
+    },
+    {
+      name: 'Semi Final',
+      url: '',
+    },
+    {
+      name: 'Grand Final',
+      url: '',
+    },
+  ]
+
   return (
     <CompetitionPage
       title='UI/UX Competition (Mobile App)'
@@ -56,6 +71,7 @@ const UIUXCompetition = () => {
       level='Tingkat Nasional'
       htm='Rp. 75.000,00'
       timelineData={timelineData}
+      uploadData={uploadData}
     />
   );
 };

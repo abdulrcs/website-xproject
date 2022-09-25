@@ -21,6 +21,21 @@ const IDP = () => {
     },
   ];
 
+  const uploadData = [
+    {
+      name: 'Abstrak',
+      url: '',
+    },
+    {
+      name: 'Full Paper',
+      url: '',
+    },
+    {
+      name: 'Grand Final',
+      url: '',
+    }
+  ]
+
   return (
     <CompetitionPage
       title='International Digital Poster'
@@ -32,6 +47,7 @@ const IDP = () => {
       level='Tingkat Internasional'
       htm='Free'
       timelineData={timelineData}
+      uploadData={uploadData}
     />
   );
 };

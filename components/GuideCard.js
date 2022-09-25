@@ -1,18 +1,24 @@
 import {
-  Box,
   Button,
   Heading,
   HStack,
   Image,
   Stack,
   Text,
+  useDisclosure,
   useToast,
   VStack,
 } from '@chakra-ui/react';
 import { useRouter } from 'next/router';
 import React from 'react';
+import {
+  Modal,
+  ModalOverlay,
+  ModalContent,
+  ModalBody,
+} from '@chakra-ui/react'
 
-const GuideCard = ({ title, img, desc, register, uploadKarya, guidebook }) => {
+const GuideCard = ({ title, img, desc, register, uploadData, guidebook }) => {
   const router = useRouter();
   const toast = useToast();
   const handleGuidebook = () => {
@@ -26,9 +32,13 @@ const GuideCard = ({ title, img, desc, register, uploadKarya, guidebook }) => {
       })
     }
   }
+  const { isOpen, onOpen, onClose } = useDisclosure()
   const handleUploadKarya = () => {
-    if(uploadKarya) {
-      router.push(uploadKarya);
+    if(uploadData.length === 1 && uploadData[0].url !== '') {
+      router.push(uploadData[0].url);
+    }
+    else if(uploadData[1]?.url) {
+      onOpen()
     } else {
       toast({
         description: 'Coming soon!',
@@ -38,6 +48,7 @@ const GuideCard = ({ title, img, desc, register, uploadKarya, guidebook }) => {
     }
   }
   return (
+    <> 
     <VStack
       px={{
         base: '5vw',
@@ -112,6 +123,20 @@ const GuideCard = ({ title, img, desc, register, uploadKarya, guidebook }) => {
         </VStack>
       </Stack>
     </VStack>
+    <Modal isOpen={isOpen} onClose={onClose} >
+        <ModalOverlay/>
+        <ModalContent borderColor="3px solid green" background='black' borderRadius={20}>
+          <ModalBody color='white' padding={20}>
+          <VStack spacing={5}>
+            <Heading variant="primary" mb={20}>Upload Karya</Heading>
+            {uploadData?.map(uploadUrl => (
+              <Button key={uploadUrl.url} variant="secondary" width="100%" onClick={() => router.push(uploadUrl.url)}>{uploadUrl.name}</Button>
+            ))}
+          </VStack>
+          </ModalBody>
+        </ModalContent>
+      </Modal>
+    </>
   );
 };
 
