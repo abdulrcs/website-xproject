@@ -28,7 +28,7 @@ const Navbar = () => {
         color='white'
         transition='all 0.3s ease-in-out'
       >
-        <Image src='assets/logo.png' w='96px' alt="logo"/>
+        <Image src='https://res.cloudinary.com/adssad/image/upload/v1664071317/logo_ixwvt8.png' w='96px' alt="logo"/>
         <HStack
           spacing='40px'
           fontSize='20px'
