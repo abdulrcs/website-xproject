@@ -58,7 +58,7 @@ const LKTIN = () => {
       img='/assets/comp_lktin.png'
       desc='LKTIN (Lomba Karya Tulis Ilmiah Nasional) merupakan sebuah kompetisi yang ditujukan kepada siswa dan siswi SMA/SMK atau sederajat untuk meningkatkan kreativitas dan inovasi dengan cara berkompetisi menuangkan ide atau gagasan mengenai tema tertentu yang berbasis ilmiah.'
       register='http://unesa.me/PendaftaranLKTINShifterion'
-      guidebook=''
+      guidebook='https://drive.google.com/file/d/13aE9qxNXt9lt4MSpDz3I4ng_qI_nRiXz/view'
       type='Siswa SMA/SMK Sederajat'
       level='Tingkat Nasional'
       htm='Rp. 75.000,00'

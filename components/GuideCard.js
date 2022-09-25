@@ -23,7 +23,7 @@ const GuideCard = ({ title, img, desc, register, uploadData, guidebook }) => {
   const toast = useToast();
   const handleGuidebook = () => {
     if(guidebook) {
-      router.push(guidebook);
+      window.open(guidebook, '_blank');
     } else {
       toast({
         description: 'Coming soon!',
