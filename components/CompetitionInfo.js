@@ -1,7 +1,7 @@
 import React from 'react';
 import { Flex, Stack } from '@chakra-ui/react';
 
-const CompetitionInfo = ({ type, level, prize }) => {
+const CompetitionInfo = ({ type, level, htm }) => {
   const InfoBox = ({ text }) => (
     <Flex
       align='center'
@@ -30,7 +30,7 @@ const CompetitionInfo = ({ type, level, prize }) => {
     >
       <InfoBox text={type} />
       <InfoBox text={level} />
-      <InfoBox text={prize} />
+      <InfoBox text={htm} />
     </Stack>
   );
 };

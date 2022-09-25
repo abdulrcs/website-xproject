@@ -5,11 +5,11 @@ const IDP = () => {
   const timelineData = [
     {
       title: 'Pendaftaran & Pengumpulan Berkas',
-      date: '11 September –19 November  2022',
+      date: '11 September  - 19 November 2022',
     },
     {
       title: 'Penjurian Karya',
-      date: '27 November – 3 Desember 2022',
+      date: '27 November - 3  Desember',
     },
     {
       title: 'Pengumuman Pemenang Lomba',
@@ -30,7 +30,7 @@ const IDP = () => {
       guidebook=''
       type='Umum'
       level='Tingkat Internasional'
-      prize='Rp. Free'
+      htm='Free'
       timelineData={timelineData}
     />
   );

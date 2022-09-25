@@ -1,6 +1,6 @@
 export const COMPETITIONS = [
   {
-    title: 'UI/UX Competition',
+    title: 'UI/UX Competition (Mobile App)',
     desc:
       'Kompetisi Desain UI/UX merupakan sebuah kompetisi desain antarmuka dari suatu sistem/produk yang berorientasi pada kenyamanan dan kemudahan pengguna dalam menggunakan sistem/produk tersebut. Tujuannya adalah untuk membuat interaksi pengguna sesederhana dan seefisien mungkin serta memberikan pengalaman yang menyeluruh bagi pengguna ketika sedang menggunakan suatu sistem/produk.',
     img: '/assets/comp_uiux.png',

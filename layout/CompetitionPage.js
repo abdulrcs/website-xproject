@@ -14,7 +14,7 @@ const CompetitionPage = ({
   guidebook,
   type,
   level,
-  prize,
+  htm,
   timelineData,
 }) => {
   return (
@@ -28,7 +28,7 @@ const CompetitionPage = ({
           guidebook={guidebook}
         />
         <Box mt='100px' />
-        <CompetitionInfo type={type} level={level} prize={prize} />
+        <CompetitionInfo type={type} level={level} htm={htm} />
         <Box mt='100px' />
         <Timeline timelines={timelineData} />
       </Box>
