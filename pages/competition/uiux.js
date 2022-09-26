@@ -48,15 +48,15 @@ const UIUXCompetition = () => {
   const uploadData = [
     {
       name: 'Penyisihan',
-      url: '',
+      url: 'https://forms.gle/HYKwF4oGoSR1sPiL8',
     },
     {
-      name: 'Semi Final',
-      url: '',
+      name: 'Semifinal',
+      url: 'https://forms.gle/R5CQbnXoZFDE6iYg7',
     },
     {
-      name: 'Grand Final',
-      url: '',
+      name: 'Final',
+      url: 'https://forms.gle/hgo8jVjARycBryfA7',
     },
   ]
 

@@ -23,17 +23,9 @@ const IDP = () => {
 
   const uploadData = [
     {
-      name: 'Abstrak',
-      url: '',
+      name: 'Upload Karya',
+      url: 'http://unesa.me/PengumpulanBerkasLKTIN',
     },
-    {
-      name: 'Full Paper',
-      url: '',
-    },
-    {
-      name: 'Grand Final',
-      url: '',
-    }
   ]
 
   return (

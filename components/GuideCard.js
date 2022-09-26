@@ -130,7 +130,9 @@ const GuideCard = ({ title, img, desc, register, uploadData, guidebook }) => {
           <VStack spacing={5}>
             <Heading variant="primary" mb={20}>Upload Karya</Heading>
             {uploadData?.map(uploadUrl => (
-              <Button key={uploadUrl.url} variant="secondary" width="100%" onClick={() => router.push(uploadUrl.url)}>{uploadUrl.name}</Button>
+              <Button key={uploadUrl.url} variant="secondary" width="100%" onClick={() => window.open(uploadUrl.url, '_blank')}>
+                {uploadUrl.name}
+              </Button>
             ))}
           </VStack>
           </ModalBody>

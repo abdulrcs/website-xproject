@@ -47,9 +47,17 @@ const LKTIN = () => {
 
   const uploadData = [
     {
-      name: 'Upload Karya',
-      url: '',
-    }
+      name: 'Penyisihan',
+      url: 'http://unesa.me/PengumpulanBerkasLKTIN',
+    },
+    {
+      name: 'Semifinal',
+      url: 'http://unesa.me/SemiFinalLKTINXProject',
+    },
+    {
+      name: 'Final',
+      url: 'http://unesa.me/FinalLKTINXProject',
+    },
   ]
 
   return (
