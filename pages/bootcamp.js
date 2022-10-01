@@ -2,18 +2,16 @@ import { Box } from '@chakra-ui/react';
 import React from 'react';
 import TitleImage from '../components/TitleImage';
 import Page from '../layout/Page';
+import PosterPage from '../layout/PosterPage';
 
 const Bootcamp = () => {
   return (
-    <Page title='Bootcamp'>
-      <Box py='150px'>
-        <TitleImage
-          title='Bootcamp'
-          img='/assets/bootcamp_vector.png'
-          footer='COMING SOON'
-        />
-      </Box>
-    </Page>
+    <PosterPage
+      title='Bootcamp'
+      img='/assets/posterBootcamp.png'
+      register='http://unesa.me/RegistrasiBootcampUIUXDesign'
+    />
+
   );
 };
 

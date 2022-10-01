@@ -18,13 +18,15 @@ const PosterImage = ({ title, img, register, guidebook }) => {
         <ExternalLink href={register} target='_blank' rel='noopener noreferrer'>
           <Button variant='primaryLong'>Daftar</Button>
         </ExternalLink>
-        <ExternalLink
-          href={guidebook}
-          target='_blank'
-          rel='noopener noreferrer'
-        >
-          <Button variant='primary'>Guidebook</Button>
-        </ExternalLink>
+        {guidebook && (
+          <ExternalLink
+            href={guidebook}
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <Button variant='primary'>Guidebook</Button>
+          </ExternalLink>
+        )}
       </HStack>
       <Stack
         align='center'
