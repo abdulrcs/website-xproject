@@ -5,35 +5,39 @@ const LKTIN = () => {
   const timelineData = [
     {
       title: 'Pendaftaran',
-      date: '25 September  - 25 Oktober 2022',
+      date: '25 September  - 30 Oktober 2022',
     },
     {
       title: 'Technical Meeting 1',
-      date: '26 Oktober 2022',
+      date: '31 Oktober 2022',
     },
     {
       title: 'Pengumpulan Abstrak',
-      date: '27 Oktober  – 2 November 2022',
+      date: '1 - 6 November 2022',
     },
     {
-      title: 'Pengumuman Lolos Ke Tahap Semifinal',
-      date: '7 November 2022',
+      title: 'Penjurian Abstrak',
+      date: '7 - 10 November 2022',
     },
     {
-      title: 'Pengumpulan Karya',
-      date: '8 November – 14 November 2022',
+      title: 'Pengumuman Lolos ke Tahap Semifinal',
+      date: '11 November 2022',
     },
     {
-      title: 'Pengumuman Lolos ke Tahap Final',
-      date: '22 November 2022',
+      title: 'Pengumpulan Karya Full Paper',
+      date: '11 - 18 November 2022',
     },
     {
-      title: 'Technical Meeting 2',
-      date: '23 November 2022',
+      title: 'Penjurian Semifinal',
+      date: '19 - 25 November 2022',
+    },
+    {
+      title: 'Pengumuman Lolos ke Tahap Final dan Technical Meeting 2',
+      date: '26 November 2022',
     },
     {
       title: 'Pengumpulan PPT',
-      date: '24 – 30 November 2022',
+      date: '27 November – 3 Desember 2022',
     },
     {
       title: 'Final',
@@ -41,7 +45,7 @@ const LKTIN = () => {
     },
     {
       title: 'Pengumuman Pemenang Lomba',
-      date: '10 Desember 2022',
+      date: '8 Desember 2022',
     },
   ];
 

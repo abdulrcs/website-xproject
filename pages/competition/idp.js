@@ -5,19 +5,15 @@ const IDP = () => {
   const timelineData = [
     {
       title: 'Pendaftaran & Pengumpulan Berkas',
-      date: '11 September  - 19 November 2022',
+      date: '25 September  - 25 November 2022',
     },
     {
       title: 'Penjurian Karya',
-      date: '27 November - 3  Desember',
+      date: '26 November - 5 Desember',
     },
     {
       title: 'Pengumuman Pemenang Lomba',
-      date: '5 Desember 2022',
-    },
-    {
-      title: 'Closing Ceremony',
-      date: '17 Desember 2022',
+      date: '8 Desember 2022',
     },
   ];
 
