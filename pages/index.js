@@ -23,7 +23,7 @@ export default function Home() {
         <Flare type='blue' />
         <Box pt="150px"/>
         <AboutCard
-          img='/assets/logoFull.png'
+          img='/assets/maskot_side.png'
           title='About X-Project'
           desc='
             X-Project merupakan sebuah kompetisi tingkat nasional di bidang

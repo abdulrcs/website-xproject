@@ -66,7 +66,7 @@ const UIUXCompetition = () => {
       img='/assets/comp_uiux.png'
       desc='Kompetisi Desain UI/UX merupakan sebuah kompetisi desain antarmuka dari suatu sistem/produk yang berorientasi pada kenyamanan dan kemudahan pengguna dalam menggunakan sistem/produk tersebut.'
       register='https://forms.gle/zLvLDmdYtaDhnFVr9'
-      guidebook='https://drive.google.com/file/d/1B32VMAVw87C8SF-sng9wRusBniQyDyCr/view'
+      guidebook='https://drive.google.com/file/d/14YYOrrLcG0psaEBoFnkV-0LxB-bS5RzB/view?usp=sharing'
       type='Mahasiswa'
       level='Tingkat Nasional'
       htm='Rp. 75.000,00'

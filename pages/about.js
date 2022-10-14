@@ -14,7 +14,7 @@ export default function About() {
         <Flare type='blue' zIndex={1} top={20} />
         <Box pt='100px'>
           <AboutCard
-            img='/assets/logoFull.png'
+            img='/assets/maskot_front.png'
             title='About X-Project'
             desc='
               X-Project merupakan sebuah event tahunan yang
