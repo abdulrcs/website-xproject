@@ -73,7 +73,7 @@ const UIUXCompetition = () => {
       guidebook='https://drive.google.com/file/d/14YYOrrLcG0psaEBoFnkV-0LxB-bS5RzB/view?usp=sharing'
       type='Mahasiswa'
       level='Tingkat Nasional'
-      htm='Rp. 75.000,00'
+      htm='Free'
       timelineData={timelineData}
       uploadData={uploadData}
     />

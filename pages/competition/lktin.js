@@ -73,7 +73,7 @@ const LKTIN = () => {
       guidebook='https://drive.google.com/file/d/1OoBHwEK3vOk4Iih34t1spzraHbIUQZbf/view?usp=sharing'
       type='Siswa SMA/SMK Sederajat'
       level='Tingkat Nasional'
-      htm='Rp. 75.000,00'
+      htm='Free'
       timelineData={timelineData}
       uploadData={uploadData}
     />
