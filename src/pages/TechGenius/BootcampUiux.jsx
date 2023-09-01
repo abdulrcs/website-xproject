@@ -40,7 +40,6 @@ const BootcampUiux = () => {
           <TimelineLeft nama="Pelaksanaan Bootcamp Day 2" tanggal="4 September 2023" />
           <TimelineRight nama="Pelaksanaan Bootcamp Day 3" tanggal="5 September 2023" />
           <TimelineLeft nama="Pelaksanaan Bootcamp Day 4" tanggal="9 September 2023" />
-      
         </div>
         
         <SubTitleExtra title="Silabus Materi" sub="Bootcamp UI/UX Design" />

@@ -7,7 +7,8 @@ const Accordion = () => {
       <div className="md:w-[45rem]  py-2">
        
 <div className=" border border-white  rounded-t-lg bg-gradient-to-r from-blue-600/30 via-white/[0.03] to-blue-400/30 backdrop-blur shadow-[0px_6px_6px_0px_rgba(0,0,0,0.25)] relative overflow-hidden">
-    <input type="checkbox"  className="peer absolute top-0 inset-x-0 w-full h-12 opacity-0 z-10 cursor-pointer" />
+    <input type="checkbox"  className="peer absolute top-0 inset-x-0 w-full h-12 opacity-0 z-10
+    cursor-pointer" />
     <div className="h-12 w-full pl-5  text-white flex items-center">
         <h1 className="md:text-xl font-bold  text-lg ">
             Day 1
@@ -78,7 +79,6 @@ const Accordion = () => {
                 - Praktikum Bersama Design UI
                  <br/>
                 - Prototyping
-
             </p>
 </div>
     </div>
