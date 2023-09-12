@@ -26,24 +26,25 @@ const BmcCompetition = () => {
           jam="Via Zoom"
           biaya="Free Pendaftaran"
           tingkat="Nasional"
+          daftar = "http://unesa.me/InformaticChampionshipBMC"
+          guideBook= "http://unesa.me/GuidebookBMC"
         />
         <SubTitleExtra title="Timeline" sub="BMC Competition" />
         <div className="pb-36">
-          <TimelineLeft nama="Pendaftaran Gel. 1 & Pembayaran" tanggal="11 September - 2 Oktober 2023" />
-          <TimelineRight nama="Pendaftaran Gel. 2 & Pembayaran" tanggal="3 - 21 Oktober 2023" />
-          <TimelineLeft nama="Technical Meeting" tanggal="22 Oktober 2023" />
-          <TimelineRight nama="Pengumpulan Karya" tanggal="2 Oktober - 5 November 2023" />
-          <TimelineLeft nama="Penjurian" tanggal="6 - 7 November 2023" />
-          <TimelineRight nama="Pengumuman tim yang masuk ke final (10 tim yang terbaik)" tanggal="10  November 2023" />
-          <TimelineLeft nama="Pengumpulan Media Presentasi (Power Point)" tanggal="15 - 17  November 2023" />
-          <TimelineRight nama="Final IC + Presentasi" tanggal="25 November 2023" />
+          <TimelineLeft nama="Pendaftaran Gel. 1 & Pembayaran" tanggal="12 September - 14 Oktober 2023" />
+          <TimelineRight nama="Pendaftaran Gel. 2 & Pembayaran" tanggal="15 Oktober - 10 November 2023" />
+          <TimelineLeft nama="Pengumuman Lolos Final" tanggal="17 November 2023" />
+          <TimelineRight nama="Technical Meeting" tanggal="19 November 2023" />
+          <TimelineLeft nama="Pengumpulan media presentasi (PPT)" tanggal="22 - 25 November 2023" />
+          <TimelineRight nama="Final" tanggal="26 November 2023" />
+          <TimelineLeft nama="Pengumuman Pemenang Lomba" tanggal="1 Desember 2023" />
           
         </div>
         <SubTitleExtra title="The Champion Prizes" sub="BMC Competition" />
         <Prizes first="Uang Pembinaan" second="Uang Pembinaan" third="Uang Pembinaan" />
         <SubTitle title="Contact Person" />
         <ContactPerson firstlink="wa.me/" firstcp="Kartika" firstno="0821 8286 8031" secondlink="wa.me/" secondcp="Nafla Aurellian" secondno="0896 7100 5203" />
-        <Registration link="google.com" />
+        <Registration link="http://unesa.me/InformaticChampionshipBMC" />
         <Background />
       </div>
       <Footer />

@@ -26,23 +26,22 @@ const PhotoCompetition = () => {
           jam="Via Zoom"
           biaya="Rp 35.000"
           tingkat="Nasional"
+          daftar = "http://unesa.me/InformaticChampionshipFotografi"
+          guideBook= "http://unesa.me/GuidebookFotografi"
         />
         <SubTitleExtra title="Timeline" sub="Photography Competition" />
         <div className="pb-36">
-          <TimelineLeft nama="Pendaftaran" tanggal="11 September - 2 November 2023" />
-          <TimelineRight nama="Pengumpulan Karya" tanggal="3 - 16 November 2023" />
-          <TimelineLeft nama="Penjurian Karya" tanggal="17 - 22 November 2023" />
+          <TimelineLeft nama="Pendaftaran dan Pengumpulan Karya" tanggal="12 September - 16 November 2023" />
           <TimelineRight nama="Pengumuman 10 Besar" tanggal="23 November 2023" />
           <TimelineLeft nama="Technical Meeting" tanggal="24 November 2023" />
           <TimelineRight nama="Periode Vote Karya" tanggal="25 - 29 November 2023" />
-          <TimelineLeft nama="Perhitungan Jumlah Like" tanggal="30 November 2023" />
-          <TimelineRight nama="Pengumuman Pemenang" tanggal="1 Desember 2023" />
+          <TimelineLeft nama="Pengumuman Pemenang" tanggal="1 Desember 2023" />
         </div>
         <SubTitleExtra title="The Champion Prizes" sub="Photography Competition" />
         <Prizes first="Uang Pembinaan" second="Uang Pembinaan" third="Uang Pembinaan" />
         <SubTitle title="Contact Person" />
         <ContactPerson firstlink="wa.me/" firstcp="Lintang Iqhtiar" firstno="0857 4668 4976" secondlink="wa.me/" secondcp="Putri Alvina" secondno="0858 6876 9738" />
-        <Registration link="google.com" />
+        <Registration link="http://unesa.me/InformaticChampionshipFotografi" />
         <Background />
       </div>
       <Footer />

@@ -24,32 +24,27 @@ const UiuxCompetition = () => {
           kategori="Mahasiswa"
           tempat="Online"
           via = "Via ZOOM"
-          
-          
           biaya="Free Pendaftaran"
           tingkat="Nasional"
+           daftar = "http://unesa.me/InformaticChampionshipUIUXDesign"
+          guideBook= "http://unesa.me/GuidebookUIUXDesign"
         />
         <SubTitleExtra title="Timeline" sub="UI/UX Design Competition" />
         <div className="pb-36">
-          <TimelineLeft nama="Pendaftaran" tanggal="11 September - 21 Oktober 2023" />
-          <TimelineRight nama="Technical Meeting 1" tanggal="22 Oktober 2023" />
-          <TimelineLeft nama="Pengumpulan Proposal" tanggal="23 - 30 Oktober 2023" />
-          <TimelineRight nama="Penjurian Proposal" tanggal="31 Oktober - 5 November 2023" />
-          <TimelineLeft nama="Pengumuman Semifinal" tanggal="6 November 2023" />
-          <TimelineRight nama="Pengumpulan Karya Semifinal" tanggal="7 - 13 November 2023" />
-          <TimelineLeft nama="Penjurian Semifinal" tanggal="14 - 19 November 2023" />
+          <TimelineLeft nama="Pendaftaran & Pengumpulan Proposal" tanggal="12 September - 3 Oktober 2023" />
+          <TimelineRight nama="Pengumuman Semifinal" tanggal="6 November 2023" />
+          <TimelineLeft nama="Pengumpulan Karya Semifinal dan Pembayaran" tanggal="7-13 November 2023" />
           <TimelineRight nama="Pengumuman Final" tanggal="20 November 2023" />
-          <TimelineLeft nama="Technical Meeting 2" tanggal="21 November 2023" />
-          <TimelineRight nama="Pengumpulan Media Presentasi (PPT)" tanggal="22-24 November 2023" />
-          <TimelineLeft nama="Final" tanggal="25 November 2023" />
-          <TimelineRight nama="Penjurian Final" tanggal="26-30 November 2023" />
-          <TimelineLeft nama="Pengumuman Pemenang" tanggal="1 Desember 2023" />
+          <TimelineLeft nama="Technical Meeting" tanggal="21 November 2023" />
+          <TimelineRight nama="Pengumpulan media presentasi (PPT)" tanggal="22 - 24 November 2023" />
+          <TimelineLeft nama="Final" tanggal="26 November 2023" />
+          <TimelineRight nama="Pengumuman Pemenang Lomba" tanggal="1 Desember 2023" />
         </div>
         <SubTitleExtra title="The Champion Prizes" sub="UI/UX Design Competition" />
         <Prizes first="Uang Pembinaan" second="Uang Pembinaan" third="Uang Pembinaan" />
         <SubTitle title="Contact Person" />
         <ContactPerson firstlink="https://api.whatsapp.com/send/?phone=6285812066072" firstcp="Muhammad Ammarul R" firstno="0858 1206 6072" secondlink="https://api.whatsapp.com/send/?phone=6281231930529" secondcp="Mutiara" secondno="0812 3193 0529" />
-        <Registration link="google.com" />
+        <Registration link="http://unesa.me/InformaticChampionshipUIUXDesign" />
         <Background />
       </div>
       <Footer />
