@@ -31,7 +31,7 @@ const UiuxCompetition = () => {
         />
         <SubTitleExtra title="Timeline" sub="UI/UX Design Competition" />
         <div className="pb-36">
-          <TimelineLeft nama="Pendaftaran & Pengumpulan Proposal" tanggal="12 September - 3 Oktober 2023" />
+          <TimelineLeft nama="Pendaftaran & Pengumpulan Proposal" tanggal="12 September - 2 November 2023" />
           <TimelineRight nama="Pengumuman Semifinal" tanggal="6 November 2023" />
           <TimelineLeft nama="Pengumpulan Karya Semifinal dan Pembayaran" tanggal="7-13 November 2023" />
           <TimelineRight nama="Pengumuman Final" tanggal="20 November 2023" />
