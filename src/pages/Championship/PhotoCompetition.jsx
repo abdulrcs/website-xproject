@@ -21,7 +21,7 @@ const PhotoCompetition = () => {
         <SubTitleExtra title="Overview" sub="Photography Competition" />
         <OverviewIC
           desc="Lomba Fotografi adalah sebuah kompetisi yang mempertandingkan karya fotografi yang dihasilkan oleh peserta. Lomba ini bertujuan untuk mengembangkan kreativitas peserta dalam bidang fotografi, serta meningkatkan kemampuan teknis dan estetika dalam menghasilkan karya yang berkualitas."
-          kategori="Umum"
+          kategori="Umum (Individu)"
           tempat="Online"
           jam="Via Zoom"
           biaya="Rp 35.000"

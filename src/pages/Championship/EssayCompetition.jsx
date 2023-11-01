@@ -21,7 +21,7 @@ const EssayCompetition = () => {
         <SubTitleExtra title="Overview" sub="Essay Competition" />
         <OverviewIC
           desc="Lomba Essay Informatics Championship merupakan sebuah kompetisi menulis essay yang ditujukan untuk mendorong kreativitas dan pemikiran kritis peserta. Lomba ini bertujuan untuk memberikan platform bagi para penulis muda untuk mengekspresikan pandangan mereka tentang isu-isu penting dan kontemporer di berbagai bidang."
-          kategori="Mahasiswa"
+          kategori="Mahasiswa (Individu)"
           tempat="Online"
           jam="Via Zoom"
           biaya="Rp 40.000"
@@ -31,10 +31,10 @@ const EssayCompetition = () => {
         />
         <SubTitleExtra title="Timeline" sub="Essay Competition" />
         <div className="pb-36">
-          <TimelineLeft nama="Pendaftaran dan Pengumpulan Karya" tanggal="12 September - 13 November 2023" />
-          <TimelineRight nama="Pengumuman Final" tanggal="20 November 2023" />
-          <TimelineLeft nama="Pengumpulan PPT" tanggal="21 - 23 November 2023" />
-          <TimelineRight nama="Technical Meeting" tanggal="24 November 2023" />
+          <TimelineLeft nama="Pendaftaran dan Pengumpulan Karya" tanggal="12 September - 15 November 2023" />
+          <TimelineRight nama="Pengumuman Final" tanggal="19 November 2023" />
+          <TimelineRight nama="Technical Meeting" tanggal="20 November 2023" />
+          <TimelineLeft nama="Pengumpulan PPT" tanggal="22 - 24  November 2023" />
           <TimelineLeft nama="Final" tanggal="26 November 2023" />
           <TimelineRight nama="Pengumuman Pemenang" tanggal="1 Desember 2023 " />
         </div>

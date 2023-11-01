@@ -21,7 +21,7 @@ const BmcCompetition = () => {
         <SubTitleExtra title="Overview" sub="BMC Competition" />
         <OverviewIC
           desc="Perlombaan Business Model Canvas adalah suatu kompetisi di mana peserta diminta untuk mengembangkan dan menyajikan model bisnis menggunakan kerangka kerja Business Model Canvas. Business Model Canvas adalah alat yang digunakan untuk menggambarkan dan merancang elemen-elemen kunci dari suatu model bisnis secara komprehensif dan terstruktur."
-          kategori="Mahasiswa"
+          kategori="Mahasiswa (Tim)"
           tempat="Online"
           jam="Via Zoom"
           biaya="Gel. 1 Rp 25.000"
@@ -33,10 +33,10 @@ const BmcCompetition = () => {
         <SubTitleExtra title="Timeline" sub="BMC Competition" />
         <div className="pb-36">
           <TimelineLeft nama="Pendaftaran Gel. 1 & Pengumpulan" tanggal="12 September - 14 Oktober 2023" />
-          <TimelineRight nama="Pendaftaran Gel. 2 & Pengumpulan" tanggal="15 Oktober - 10 November 2023" />
-          <TimelineLeft nama="Pengumuman Lolos Final" tanggal="17 November 2023" />
-          <TimelineRight nama="Technical Meeting" tanggal="19 November 2023" />
-          <TimelineLeft nama="Pengumpulan media presentasi (PPT)" tanggal="22 - 25 November 2023" />
+          <TimelineRight nama="Pendaftaran Gel. 2 & Pengumpulan" tanggal="15 Oktober - 14 November 2023" />
+          <TimelineLeft nama="Pengumuman Lolos Final" tanggal="19 November 2023" />
+          <TimelineRight nama="Technical Meeting" tanggal="20 November 2023" />
+          <TimelineLeft nama="Pengumpulan media presentasi (PPT)" tanggal="22 - 24 November 2023" />
           <TimelineRight nama="Final" tanggal="26 November 2023" />
           <TimelineLeft nama="Pengumuman Pemenang Lomba" tanggal="1 Desember 2023" />
 

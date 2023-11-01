@@ -55,6 +55,7 @@ import Sponsor19 from "./img/sponsor/19.jpg";
 import Sponsor20 from "./img/sponsor/20.png";
 import Sponsor21 from "./img/sponsor/21.png";
 import Sponsor22 from "./img/sponsor/22.png";
+import Support from "./img/Support.png";
 import GS from "./img/GS.png";
 import Ortographic from "./img/ortographic.png";
 import TsOrto from "./img/tsorto.png";
@@ -120,4 +121,5 @@ export {
   GS,
   Ortographic,
   TsOrto,
+  Support,
 };
