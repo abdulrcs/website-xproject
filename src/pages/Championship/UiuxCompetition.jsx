@@ -43,13 +43,13 @@ const UiuxCompetition = () => {
         </div>
         <SubTitleExtra title="The Champion Prizes" sub="UI/UX Design Competition" />
         <div className="flex flex-col">
-        <Prizes first="2 Voucher Gratis Course UI/UX Design Mastery by Silvul / Tim, Uang Pembinaan, " second="2 Voucher Gratis Course UI/UX Design Mastery by Silvul / Tim, Uang Pembinaan, " third="1 Voucher Gratis Course UI/UX Design Mastery by Silvul / Tim, Uang Pembinaan, " />
+        <Prizes first="2 Voucher Gratis Course UI/UX Design Mastery by Skilvul / Tim, Uang Pembinaan, " second="2 Voucher Gratis Course UI/UX Design Mastery by Skilvul / Tim, Uang Pembinaan, " third="1 Voucher Gratis Course UI/UX Design Mastery by Skilvul / Tim, Uang Pembinaan, " />
         <div className="w-full h-full px-6 md:px-[8.2rem] -mt-[5rem] pb-36 relative z-20">
           <div className="flex justify-center items-center md:items-end text-white gap-10">
             <div className="bg-gradient-to-r from-blue-400/70 to-blue-400/50 backdrop-blur shadow-[0px_6px_6px_0px_rgba(0,0,0,0.25)] rounded-lg w-60 md:w-72 h-fit text-center md:order-2">
               <div className="pb-10 px-10">
                 <h3 className="text-2xl md:text-3xl mt-10 font-extrabold mb-2">Participant</h3>
-                <p className="text-lg md:text-xl">Voucher Discount 50% Course UI/UX Design Mastery by Silvul, </p>
+                <p className="text-lg md:text-xl">Voucher Discount 50% Course UI/UX Design Mastery by Skilvul, </p>
                 <p className="text-lg md:text-xl">E-Certificate</p>
                 </div>
               </div>
