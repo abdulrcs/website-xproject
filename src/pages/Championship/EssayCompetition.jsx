@@ -27,6 +27,7 @@ const EssayCompetition = () => {
           biaya="Rp 40.000"
           tingkat="Nasional"
           daftar = "http://unesa.me/InformaticChampionshipEssay"
+          txtDaftar="Daftar"
           guideBook= "http://unesa.me/GuidebookEssay"
         />
         <SubTitleExtra title="Timeline" sub="Essay Competition" />

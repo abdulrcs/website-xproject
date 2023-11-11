@@ -27,6 +27,7 @@ const PhotoCompetition = () => {
           biaya="Rp 35.000"
           tingkat="Nasional"
           daftar = "http://unesa.me/InformaticChampionshipFotografi"
+          txtDaftar="Daftar"
           guideBook= "http://unesa.me/GuidebookFotografi"
         />
         <SubTitleExtra title="Timeline" sub="Photography Competition" />

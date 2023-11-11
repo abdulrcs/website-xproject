@@ -26,7 +26,8 @@ const UiuxCompetition = () => {
           via = "Via ZOOM"
           biaya="Free Pendaftaran"
           tingkat="Nasional"
-           daftar = "http://unesa.me/InformaticChampionshipUIUXDesign"
+           daftar = "http://unesa.me/SemifinalUIUXDesign2023"
+           txtDaftar="Upload Semifinal"
           guideBook= "http://unesa.me/GuidebookUIUXDesign"
         />
         <SubTitleExtra title="Timeline" sub="UI/UX Design Competition" />
