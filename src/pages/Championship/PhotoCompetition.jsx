@@ -41,7 +41,7 @@ const PhotoCompetition = () => {
         <SubTitleExtra title="The Champion Prizes" sub="Photography Competition" />
         <Prizes first="Uang Pembinaan" second="Uang Pembinaan" third="Uang Pembinaan" />
         <SubTitle title="Contact Person" />
-        <ContactPerson firstlink="wa.me/" firstcp="Lintang Iqhtiar" firstno="0857 4668 4976" secondlink="wa.me/" secondcp="Putri Alvina" secondno="0858 6876 9738" />
+        <ContactPerson firstlink="http://wa.me/6285746684976" firstcp="Lintang Iqhtiar" firstno="0857 4668 4976" secondlink="http://wa.me/62895395398564" secondcp="Putri Alvina" secondno="0895 3953 98564" />
         <Registration link="http://unesa.me/InformaticChampionshipFotografi" />
         <Background />
       </div>

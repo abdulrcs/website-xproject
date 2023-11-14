@@ -34,15 +34,15 @@ const EssayCompetition = () => {
         <div className="pb-36">
           <TimelineLeft nama="Pendaftaran dan Pengumpulan Karya" tanggal="12 September - 15 November 2023" />
           <TimelineRight nama="Pengumuman Final" tanggal="19 November 2023" />
-          <TimelineRight nama="Technical Meeting" tanggal="20 November 2023" />
-          <TimelineLeft nama="Pengumpulan PPT" tanggal="22 - 24  November 2023" />
+          <TimelineLeft nama="Technical Meeting" tanggal="20 November 2023" />
+          <TimelineRight nama="Pengumpulan PPT" tanggal="22 - 24  November 2023" />
           <TimelineLeft nama="Final" tanggal="26 November 2023" />
           <TimelineRight nama="Pengumuman Pemenang" tanggal="1 Desember 2023 " />
         </div>
         <SubTitleExtra title="The Champion Prizes" sub="Essay Competition" />
         <Prizes first="Uang Pembinaan" second="Uang Pembinaan" third="Uang Pembinaan" />
         <SubTitle title="Contact Person" />
-        <ContactPerson firstlink="wa.me/" firstcp="Louis Wang" firstno="0819 3840 4189" secondlink="wa.me/" secondcp="Deirdre" secondno="0895 7069 70205" />
+        <ContactPerson firstlink="http://wa.me/6281938404189" firstcp="Louis Wang" firstno="0819 3840 4189" secondlink="http://wa.me/62895706970205" secondcp="Deirdre" secondno="0895 7069 70205" />
         <Registration link="http://unesa.me/InformaticChampionshipEssay" />
         <Background />
       </div>

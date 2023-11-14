@@ -45,7 +45,7 @@ const BmcCompetition = () => {
         <SubTitleExtra title="The Champion Prizes" sub="BMC Competition" />
         <Prizes first="Uang Pembinaan" second="Uang Pembinaan" third="Uang Pembinaan" />
         <SubTitle title="Contact Person" />
-        <ContactPerson firstlink="wa.me/" firstcp="Kartika" firstno="0821 8286 8031" secondlink="wa.me/" secondcp="Nafla Aurellian" secondno="0896 7100 5203" />
+        <ContactPerson firstlink="http://wa.me/6282182868031" firstcp="Kartika" firstno="0821 8286 8031" secondlink="http://wa.me/6289671005203" secondcp="Nafla Aurellian" secondno="0896 7100 5203" />
         <Registration link="http://unesa.me/InformaticChampionshipBMC" />
         <Background />
       </div>
