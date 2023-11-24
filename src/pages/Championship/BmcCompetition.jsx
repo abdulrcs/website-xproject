@@ -27,8 +27,8 @@ const BmcCompetition = () => {
           biaya="Gel. 1 Rp 25.000"
           biaya2 = "Gel. 2 Rp 30.000"
           tingkat="Nasional"
-          daftar="http://unesa.me/InformaticChampionshipBMC"
-          txtDaftar="Daftar"
+          daftar="https://forms.gle/8sRrsfx8E5jzGb1w9"
+          txtDaftar="Upload Final"
           guideBook="http://unesa.me/GuidebookBMC"
         />
         <SubTitleExtra title="Timeline" sub="BMC Competition" />
