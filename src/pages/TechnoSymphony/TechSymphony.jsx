@@ -5,7 +5,7 @@ import Footer from "../../components/Footer";
 import Background from "../../components/Background";
 import OverviewTS from "../../components/techsymphony/OverviewTS";
 import SubTitleExtra from "../../components/SubTitleExtra";
-import ButtonPrimary from "../../components//ButtonPrimary";
+import ButtonPrimary from "../../components/ButtonPrimary";
 import Guest from "../../components/techsymphony/Guest";
 import { guestPhoto1,name } from "../../assets";
 import SubTitle from "../../components/SubTitle";
@@ -23,8 +23,8 @@ const TechSymphony = () => {
         <Guest img={guestPhoto1} guest={name} />
          <div className="mt-[1rem]">
           <SubTitleExtra title="Pembelian Ticket" sub="Techno Symphony" />
-          <div className="flex mb-[10rem] items-center md:justify-center">
-        <ButtonPrimary text="Daftar" target="_blank" link="https://forms.gle/tvawhyEzjgZCYuAeA" />
+          <div className="flex flex-col mb-[10rem] md:flex-row gap-8 items-center md:justify-center">
+          <ButtonPrimary text="Daftar" link="http://Unesa.me/BootcampUIUXDesign2023" />
          </div>
       </div>
         <SubTitleExtra title="Timeline" sub="Techno Symphony" />
