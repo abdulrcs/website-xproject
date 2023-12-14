@@ -5,6 +5,7 @@ import Footer from "../../components/Footer";
 import Background from "../../components/Background";
 import OverviewTS from "../../components/techsymphony/OverviewTS";
 import SubTitleExtra from "../../components/SubTitleExtra";
+import ButtonPrimary from "../../components//ButtonPrimary";
 import Guest from "../../components/techsymphony/Guest";
 import { guestPhoto1,name } from "../../assets";
 import SubTitle from "../../components/SubTitle";
@@ -20,6 +21,12 @@ const TechSymphony = () => {
         <OverviewTS desc="Techno Syhmphony merupakan rangkaian terakhir acara X-Project 9.0, acara ini bertujuan mengenalkan tentang Rumpun Teknik Informatika ke mahasiswa baru serta menjadi ajang kreativitas mahasiswa baru, selain itu kegiatan ini menjadi bentuk wadah apresiasi untuk mahasiswa di berbagai kegiatan." />
         <SubTitleExtra title="Guest Star" sub="After Party" />
         <Guest img={guestPhoto1} guest={name} />
+         <div className="mt-[1rem]">
+          <SubTitleExtra title="Pembelian Ticket" sub="Techno Symphony" />
+          <div className="flex mb-[10rem] items-center md:justify-center">
+        <ButtonPrimary text="Daftar" target="_blank" link="https://forms.gle/tvawhyEzjgZCYuAeA" />
+         </div>
+      </div>
         <SubTitleExtra title="Timeline" sub="Techno Symphony" />
       <div className="pb-36 ">
       <div class="   w-full h-full px-6 md:px-[8.2rem] relative z-20">
