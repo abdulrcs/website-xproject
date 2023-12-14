@@ -22,7 +22,7 @@ import email from "./icons/mail.svg";
 import phone from "./icons/phone.svg";
 import map from "./icons/map.svg";
 import speakerPhoto1 from "./img/speakerPhoto.png";
-import guestPhoto1 from "./img/guestPhoto.png";
+import guestPhoto1 from "./img/Guest.png";
 import goldTrophy from "./img/gold-trophy.svg";
 import silverTrophy from "./img/silver-trophy.svg";
 import bronzeTrophy from "./img/bronze-trophy.svg";
@@ -56,7 +56,7 @@ import Sponsor20 from "./img/sponsor/20.png";
 import Sponsor21 from "./img/sponsor/21.png";
 import Sponsor22 from "./img/sponsor/22.png";
 import Support from "./img/Support.png";
-import GS from "./img/GS.png";
+import name from "./img/name.png";
 import Ortographic from "./img/ortographic.png";
 import TsOrto from "./img/tsorto.png";
 
@@ -118,7 +118,7 @@ export {
   Sponsor20,
   Sponsor21,
   Sponsor22,
-  GS,
+  name,
   Ortographic,
   TsOrto,
   Support,
