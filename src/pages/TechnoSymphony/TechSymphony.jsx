@@ -24,7 +24,7 @@ const TechSymphony = () => {
          <div className="mt-[1rem]">
           <SubTitleExtra title="Pembelian Ticket" sub="Techno Symphony" />
           <div className="flex flex-col mb-[10rem] md:flex-row gap-8 items-center md:justify-center">
-          <ButtonPrimary text="Daftar" link="http://Unesa.me/BootcampUIUXDesign2023" />
+          <ButtonPrimary text="Daftar" link="https://forms.gle/tvawhyEzjgZCYuAeA" />
          </div>
       </div>
         <SubTitleExtra title="Timeline" sub="Techno Symphony" />
